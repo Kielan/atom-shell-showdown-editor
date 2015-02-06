@@ -1,0 +1,19 @@
+//so basically the requirejs file is loaded and require is defined but config is not a function. 
+require.config({
+    "paths": {
+        "jquery"     :	"lib/jquery.min",
+	"showdown"   :	"lib/showdown",
+	"showdownMyGui":	"lib/showdown-mygui",
+	"tagsinput"  :	"lib/jquery.tagsinput.min"
+    },
+    "shim": {
+	"jquery": ["jquery"]
+    }
+});
+
+define(["jquery", "showdown", "showdownMyGUI", "tagsinput"], function($) {
+console.log("smiles" + $);
+//return {};
+})
+//require(['app'])
+

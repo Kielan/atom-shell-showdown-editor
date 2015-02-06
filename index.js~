@@ -1,0 +1,4 @@
+var jquery = require('jquery');
+var showdown = require('showdown');
+var mygui = require('mygui');
+require('jquery.tagsinput.min.js'); //I know I'm being an idiot bcuz not even node
